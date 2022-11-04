@@ -1,18 +1,11 @@
-*{
-  /*
-    margin: 0;
-    padding: 0;
-    line-height: 1;*/
-    
-}
 body{
     background-color: rgb(61, 59, 29); 
     box-sizing: border-box;
 }
-nav a{
+nav {
     
-  
-    
+    margin-left: 10px;
+    color: rgb(94, 7, 7);
 }
 hr{
     color: antiquewhite;
@@ -20,11 +13,11 @@ hr{
 h{
     color: rgb(10, 142, 237);
     font: normal bold 3em "Arial Narrow";
-    margin-top: -5px;
+  
     
 }
 main{
-    margin-top: 50px;
+    margin-top: -10px;
 }
 em{
     font-style: normal ;
@@ -55,10 +48,4 @@ h1,h3{
     color: rgb(70, 100, 152);
     font: normal bold 2em "Arial Narrow";
 
-}
-
-ol{
-    
-}
-div ol > li::first-letter{
 }
