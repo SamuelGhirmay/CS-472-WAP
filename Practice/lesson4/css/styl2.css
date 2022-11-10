@@ -1,0 +1,105 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-weight: 300;
+}
+form{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+
+}
+.navbar{
+    display: flex;
+    background-color:rgb(80, 205, 247);
+    font-weight: 400;
+    height: 60px;
+    vertical-align: middle;
+}
+.leftnav{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+#rightnav{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbtn{
+    margin-right: 10px;
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-width: 0;
+    border-radius: 3px;
+}
+
+ 
+#hello{
+    color: white;
+    margin-right: 150px;
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+
+.btn{
+    margin-left: 1000px;
+    margin-bottom: 300px;
+    margin-top: -400px;
+    padding-bottom: 5px;
+}
+.container{
+    display: flex;
+}
+label{
+    display: flex;
+    margin: 10px;
+    text-decoration: solid;
+    font-weight: 500;
+    text-align: left;
+   
+}
+input{
+    display: flex;
+    width: 500px;
+    text-align: left;
+    padding-bottom:20px;
+}
+#btn{
+    display: flex;
+    width: 500px;
+    margin-top: 20px;  
+    justify-content: right;
+}
+#a{
+    border-radius: 5px;
+   margin-left: 30px;
+    color: rgb(29, 29, 100);
+    border-color:rgb(29, 29, 100) ;
+    background-color: aliceblue;
+   height: 50px;
+}
+#b{
+    border-radius: 5px;
+    margin-left: 30px;
+    color: rgb(246, 4, 25);
+    border-color:rgb(246, 4, 25) ;
+}
+#c{
+    color: rgb(8, 190, 241);
+    border-radius: 5px;
+    margin-left: 30px;
+    border-color: rgb(8, 190, 241);
+}
