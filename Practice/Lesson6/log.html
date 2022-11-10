@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./logjs.js"></script>
+    <link rel="stylesheet" href="/Assignment5/CSS/style.css">
+    <link rel="stylesheet" href="./css/log.css">
+    <script defer src="./js/ls6.js" type="text/javascript"></script>
     <title>log</title>
 </head>
 <body>
-    <form action="#" autocomplete="on" id="">
-        <div></div>
-        <label for="email">Email*</label>
-        <input type="email" placeholder="Enter your email" id="email">
-        <p>we will never share your email</p>
+    <form action="#" autocomplete=“on” id="form">
+        <label for="email">Email address*</label>
+        <input type="email" required id="email"  placeholder="Enter email">
+        <p>We'll never share your email with anyone else.</p>
         <label for="password">Password*</label>
-        <input type="password" placeholder="Enter your password" id="password">
-        <br>
-        <input type="submit">
+        <input  type="password" required id="password" placeholder="Password "
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}">
 
+        <input type="submit" id="submit" value="Login"> 
+
+        <div>
+            <pre id="outputs">
+    
+            </pre>
+        </div>
     </form>
+
+  
+       
+    
 </body>
 </html>
