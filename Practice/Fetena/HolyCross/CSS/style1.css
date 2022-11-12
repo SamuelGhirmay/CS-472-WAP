@@ -1,0 +1,50 @@
+/* holy.css */
+
+
+
+
+
+
+
+.p{
+    font-size: 22px;
+
+}
+
+body>footer{
+    display: flex;
+    height: 5vh;
+    background-color: antiquewhite;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+
+}
+#left-footer{
+    width: 50vw;
+ 
+}
+#right-footer{
+    display: flex;
+    width: 50vw;
+    justify-content: flex-end;
+    padding-right: 20px;
+  
+}
+pre{
+    
+    
+}
+
+#em1{
+    color: rgb(18, 186, 241);
+   
+}
+#em2{
+    color:rgb(247, 11, 11);
+}
+#em3{
+    font-style: italic;
+}
+
+

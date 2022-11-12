@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.2/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/style2.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+        <script defer src="../JS/patient.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">HolyCross Medical Center</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./patient.html">Patients</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex" role="search">
+                        <span>Welcome, Guest</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+   <main>
+    <form action="#"  method="post" id="form">
+        <div class="container">
+            <h1>Patients Registration</h1>
+            <div class="row" id="fullname">
+                <label for="#">*Patient ID No:</label>
+                <input type="text" placeholder="EP-XXX-XXXXXX" id="patientId" required pattern="(P|EP)-\d{3}-\d{6}">
+                <a>Enter the patient ID Number, in the specified format.</a>
+            </div>
+            <div class="row" >
+                <div class="col-4">
+                    <div class="row">
+                    <label for="firstName">*First Name:</label>
+                    <input type="text" id="firstName" placeholder="Enter First Name" required>
+                    <p >Enter the patients First Name</p>
+                </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                    <label for="middleInitial">Middle Initial(s):</label>
+                    <input type="text" placeholder="Enter Middle Initial(s)" id="middleInitial">
+                    
+                </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                    <label for="lastName">*Last Name:</label>
+                    <input type="text" id="lastName" placeholder="Enter Last Name" required>
+                    <p >Enter the patient's First Name</p>
+                </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="row">
+                    <label for="dateOfBirth">*Date Of Birth:</label>
+                    <input type="text" id="dateOfBirth" placeholder="mm/dd/yyyy" required>
+                    <p >Enter the patients Date of birth</p>
+                </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                    <label for="department">*Department:</label>
+                    <select name="department" id="department" required>
+                        <option value="" selected disabled>Select...</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="earNose">Ear,Nose and Throat</option>
+                        <option value="primary">Primary Care</option>
+                        <option value="unassigned">[Unassigned]</option>
+                    </select>                   
+                </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                    <label for="text">*Is this an Out-patient?</label>
+                    <div class="col-3">    
+                   
+                    <input type="radio" name="outPatient" id="yes" value="yes" required>
+                    <label for="radio1">Yes</label>
+                   </div>
+                   <div class="col-3">
+                    
+                    <input type="radio" name="outPatient" id="no" value="no" required>
+                    <label for="radio2">No</label>
+                   </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="button">
+                <input type="reset" id="reset">
+                <input type="submit" id="register" value="registerPatient" >
+
+            </div>
+
+        </div>
+       
+    </form>
+
+
+
+
+   </main> 
+
+
+   <footer>
+    <div id="left-footer">
+        <!-- Name and Coure -->
+        <span>Samuel ::: CS472-WAP</span>
+    </div>
+    <div id="right-footer">
+        <!-- copyright -->
+        <span>HCMC &copy; November 2022 </span>
+    </div>
+</footer>
+</body>
+</html>

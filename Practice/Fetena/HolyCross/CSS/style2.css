@@ -1,0 +1,48 @@
+
+#middleInitial{
+    margin-left: 4px;
+}
+#lastName{
+    margin-left: 8px;
+}
+#department{
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+body>footer{
+    display: flex;
+    height: 5vh;
+    background-color: antiquewhite;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+
+}
+#left-footer{
+    width: 50vw;
+ 
+}
+#right-footer{
+    display: flex;
+    width: 50vw;
+    justify-content: flex-end;
+    padding-right: 20px;
+  
+}
+.button{
+    float: right;
+    margin-right: 90px;
+    padding-left: 20px;
+}
+#reset{
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(89, 91, 92);
+    width: 100px;
+}
+#register{
+    border-radius: 5px;
+    color: aliceblue;
+    background-color:rgb(247, 8, 8);
+    width: 150px;
+}
