@@ -1,0 +1,45 @@
+/* style2.css */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body>footer{
+    display: flex;
+    height: 5vh;
+    background-color: antiquewhite;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+
+}
+#left-footer{
+    width: 50vw;
+ 
+}
+#right-footer{
+    display: flex;
+    width: 50vw;
+    justify-content: flex-end;
+    padding-right: 20px;
+  
+}
+img{
+    float: right;
+}
+.button{
+    float: right;
+    margin-right: 90px;
+    padding-left: 20px;
+}
+#reset{
+    margin: 20px;
+    border-radius: 5px;
+    padding-left: 40px;
+
+}
+.row{
+    width: 99%;
+}
+#fullname{
+    width: 97%;
+}

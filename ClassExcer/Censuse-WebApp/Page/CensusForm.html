@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.2/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/style2.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">The South West - Regional</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Census Form</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex" role="search">
+
+                        <span>Friday, 11 November 2022 - 12:08:23 PM</span>
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form action="#"  method="post">
+        <div class="container">
+            <h1>Census Form</h1>
+            <div class="row" id="fullname">
+                <label for="#">*Full Name:</label>
+                <input type="text" placeholder="Enter Your Full Name">
+                <a>Enter Your full name as printed on your Government-issued ID</a>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                    <label for="citizen">*Citizen ID:</label>
+                    <input type="text" id="citizen" placeholder="XXXXXXXXXXXXX">
+                    <p >Enter Your 10-Digit Citizen ID</p>
+                </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                    <label for="#">*Social Security Number</label>
+                    <input type="text" placeholder="XXX-XX-XXXX">
+                    <p>Enter Your Social Security</p>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                    <label for="state">*State</label>
+                    <select name="State" id="state">
+                        <option value="Select...">Select...</option>
+                        <p>Select your state of Residence</p>
+                    </select>
+                </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                    <label for="radio">*Senior Citizen?</label>
+                    <div class="col-3">
+                    <input type="radio" name="Senior" id="radio" >
+                   </div>
+                   <div class="col-3">
+                    <input type="radio" name="Senior" id="radio" >
+                   </div>
+                </div>
+                </div>
+            </div>
+
+
+            <div class="button">
+                <input type="reset" id="reset">
+                <input type="submit" id="submit">
+
+            </div>
+
+        </div>
+       
+    </form>
+    </main>
+    <footer>
+        <div id="left-footer">
+            <!-- Name and Coure -->
+           <span>Samuel ::: CS472-WAP</span> 
+        </div>
+        <div id="right-footer">
+            <!-- copyright -->
+    <span>&copy;November 2022 </span>
+        </div>
+    </footer>
+</body>
+</html>
