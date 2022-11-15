@@ -23,9 +23,15 @@ form.onsubmit = function (event) {
     Department : ${department.value}
     Is out Patient:${radioBtn.value}
     `
-    );
-
-  form.reset(); 
+    )
+    patientId.value="";
+    firstName.value="";
+    middleIntial.value="";
+    lastName.value="";
+    dateOfBirth.value="";
+    department.value="";
+    radioBtn.value="";
+  
    
 
 }

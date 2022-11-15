@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/registration.css">
+   
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script defer src="./JS/registration.js"></script>
+
+    <title>Registration</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Prince University</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Degree Programs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Page/Registration.html">Register for a Course</a>
+                  </li>
+                </ul>
+                <form class="d-flex" >
+                    <a class="navbar-brand" href="#">Welcome, Guest</a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+     
+    <main>
+        <div class="container">
+            <h1>Course Registration</h1>
+            <hr>
+            <h3>Student Information</h3>
+          
+            <div class="row">
+                <div class="col-4">
+                    <label for="firstName">*First Name</label>
+                    <input type="text" id="firstName" required>
+                </div>
+                <div class="col-4">
+                    <label for="middleName"></label>
+                    <input type="text" id="middleName" required>
+                </div>
+                <div class="col-4">
+                    <label for="lastName"></label>
+                    <input type="text" id="lastName" required>
+                </div>
+            </div>
+
+            <div class="row">
+              
+              <div class="col-6">
+              <label for="address">*Address</label>
+              <textarea name="address" id="address" cols="30" rows="1" required></textarea>
+            </div>
+            <div class="col-6">
+              <label for="bio">*Personal Bio</label>
+              <textarea name="bio" id="bio" cols="30" rows="1" required></textarea>
+            </div>
+
+            </div class="row">
+            <h3>Level Of Study*</h3>
+
+            <div class="col-4">
+              <label for="undergraduate">Undergraduate</label><br>
+              <input type="radio" id="studylevel" name="undergraduate" value="undergraduate" required>
+            </div>
+            <div class="col-4">
+              <label for="graduate">Graduate</label>
+              <input type="radio" name="graduate" id="studylevel" value="graduate" required>
+            </div>
+
+
+
+        </div>
+
+    </main>
+    
+    <footer>
+        <div class="leftFoot">
+         Samuel Ghirmay ::: CS472-WAP 
+        </div>
+        <div class="centerFoot">
+         <a href="./index.html">Home</a>
+         <a href="#">About KIU</a>
+         <a href="./Page/Registration.html">Course Registration of Form &reg;</a>
+        </div>
+        <div class="rightFoot">
+         &copy;November 2022
+        </div>
+     </footer>
+
+</body>
+</html>

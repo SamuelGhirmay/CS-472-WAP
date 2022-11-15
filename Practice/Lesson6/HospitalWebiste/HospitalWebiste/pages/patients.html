@@ -1,0 +1,134 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.2/cosmo/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/patients.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" defer></script>
+    <script defer src="../js/patients.js"></script>
+    <title>HCMC - Home</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-warning text-light">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">HolyCross Medical Center</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item text-light">
+                            <a class="nav-link text-light disabled" href="#">|</a>
+                        </li>
+                        <li class="nav-item text-light">
+                            <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item text-light">
+                            <a class="nav-link text-light disabled" href="#">|</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light fw-bold" href="./patients.html">Patients</a>
+                        </li>
+
+                    </ul>
+                    <div class="d-flex " role="search">
+                        <label> Welcome, Guest</label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <h3>Patients Registration</h3>
+                <hr>
+
+            </div>
+            <form action="#" id="form" method="post">
+                <div class="row g-2">
+                    <label for="patientId">*Patient ID:</label>
+                    <input type="text" placeholder="EP-XXX-XXXXXX" id="patientId" required pattern="(P|EP)-\d{3}-\d{6}">
+                    <p>Enter the Patient ID Number, in the specified format</p>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="row g-2">
+                            <label for="firstName">*First Name:</label>
+                            <input type="text" placeholder="Enter First Name" id="firstName" required>
+                            <p>Enter the Patient's First Name</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row g-2">
+                            <label for="middleInitial">Middle Initial(s):</label>
+                            <input type="text" placeholder="Enter Middle Initial(s)" id="middleInitial">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row g-2">
+                            <label for="lastName">*Last Name:</label>
+                            <input type="text" placeholder="Enter Last Name" id="lastName" required>
+                            <p>Enter the Patient's Last Name</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="row g-2">
+                            <label for="birthDate">*Date of Birth:</label>
+                            <input type="text" placeholder="mm/dd/yyyy" id="birthDate" pattern="\d{2}/\d{2}/\d{4}"
+                                required>
+                            <p>Enter the Patient ID Number, in the specified format</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row g-2">
+                            <label for="department">*Department:</label>
+                            <select name="Department" id="department" required>
+                                <option value="" selected disabled>Select</option>
+                                <option value="ent">Ear,Nose and Throat</option>
+                                <option value="p">Primary Care</option>
+                                <option value="c">Cardiology</option>
+                            </select>
+                            <p>Select the department providing care</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row g-2">
+                            <label>*Is this an Out-patient?</label>
+                            <div class="col"><input type="radio" name="outPatient" id="yes" value="Yes" required><label
+                                    for="yes">Yes</label></div>
+                            <div class="col"><input type="radio" name="outPatient" id="no" value="No" required><label
+                                    for="no">No</label></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <input type="reset" name="reset" class=" bg-dark border-0 text-light">
+                    <input type="submit" value="Register Patient" class="bg-warning text-light border-0">
+
+
+                </div>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+
+        <div class="leftFoot">
+            A. Kifletsion::: CS472-WAP
+        </div>
+        <div class="rightFoot">
+            HCMC &copy; May 2020
+        </div>
+
+
+    </footer>
+</body>
+
+</html>

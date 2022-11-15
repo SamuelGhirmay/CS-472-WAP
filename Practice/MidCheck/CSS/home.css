@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+  padding: 0px;    
+}
+footer{
+display:flex;
+background-color: bisque;
+width: 250vw;
+margin-top: 4.3vw;
+position: fixed;
+}
+.leftFoot{
+align-items: flex-start;
+margin-left: 20px;
+
+}
+.centerFoot{
+align-items: center;
+margin-left: 450px;;
+}
+.rightFoot{
+align-items:flex-end;
+float:right;
+margin-left: 350px;
+}

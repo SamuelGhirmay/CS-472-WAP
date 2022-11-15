@@ -1,0 +1,37 @@
+input[type="reset"] {
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    margin-left: 20px;
+    border-radius: 5px;
+}
+main>div.container{
+    margin-top: 50px;
+}
+body>footer{
+    display: flex;
+    height: 5vh;
+    background-color: antiquewhite;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+
+}
+#left-footer{
+    width: 50vw;
+ 
+}
+#right-footer{
+    display: flex;
+    width: 50vw;
+    justify-content: flex-end;
+    padding-right: 20px;
+  
+}
+.anchors{
+
+    justify-content: center;
+}

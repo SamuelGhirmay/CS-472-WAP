@@ -16,11 +16,11 @@
         <input type="email" placeholder="Enter email">
         <p>We'll never share your email with anyone else.</p>
         <label for="password">Password</label>
-        <input type="password" placeholder="Password " pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}$">
-
+        <input type="password" placeholder="Password " pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}$"> 
+        <!-- Password field is at least 10 characters in length and contain at least one number and one uppercase and lowercase letter). -->
         <label for="text">URL</label>
         <input type="text" placeholder="Input URL" pattern="^http[s]?:\/\/.+">
-
+        <!-- must enter it beginning with either the string, "http://" or "https://". -->
         <label id="check"><input type="checkbox">Check me out</label>
         <input type="submit">
     </form>

@@ -1,0 +1,30 @@
+ /* style.css */
+
+ table {
+
+ }
+ 
+ body>footer{
+    display: flex;
+    height: 5vh;
+    background-color: antiquewhite;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+
+}
+#left-footer{
+    width: 50vw;
+ 
+}
+#right-footer{
+    display: flex;
+    width: 50vw;
+    justify-content: flex-end;
+    padding-right: 20px;
+  
+}
+.anchors{
+
+    justify-content: center;
+}

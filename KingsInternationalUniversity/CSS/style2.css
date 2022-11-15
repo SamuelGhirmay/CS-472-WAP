@@ -1,0 +1,68 @@
+/* styl2 */
+main>div.container{
+    margin-top: 50px;
+} 
+footer{
+    display: flex;
+    width: 100%;
+    background-color: rgb(234, 126, 10);
+    color: aliceblue;
+    height: 5vh;
+    position: fixed;
+    bottom: 0px;
+    align-items: center;
+   
+   
+    
+}
+#left-footer{
+    width: 30vw;
+    margin-left: 20px;
+ 
+}
+#right-footer{
+    width: 30vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+   
+  
+}
+.anchors{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+ 
+}
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+#ancCourse{
+    text-decoration: none;
+    color: aliceblue;
+}
+.btn{
+    margin-top: 7px;
+    justify-content:flex-start;
+}
+#btn1{
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(41, 39, 37);
+}
+#btn2{
+    margin-left: 20px;
+    border-radius: 5px;
+    padding-top: 15px;
+    background-color: brown;
+    color: aliceblue;
+
+}
+div.row{
+    margin-top: 10px;
+}
