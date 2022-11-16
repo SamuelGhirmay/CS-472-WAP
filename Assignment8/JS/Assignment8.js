@@ -174,15 +174,3 @@ Employee.getAddress=function () {
 
 Employee.setAddress('1000 4th st','FairField','IA',"52557");
 console.log(Employee.getAddress());
-
- 
-// // borow
-// const Employee2={
-//     name:"test",
-//     age:"23",
-//     address:undefined,
-// };
-
-// Employee,setAddress.call(Employee2,"13Mai","FairFiel","Iowa","2423456");
-
-// console.log(Employee2.address());
