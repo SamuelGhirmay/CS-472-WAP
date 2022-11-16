@@ -1,5 +1,6 @@
-"use strict"
+//  Assignment#8  Js
 
+"use strict"
 
 //6 module pattern
 const count=(function () {
