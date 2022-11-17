@@ -51,19 +51,19 @@ console.log(count2.counter)
 
 //8
 
-var make_adder=(function (inc) {
-    var counter=0;
+const make_adder=(function (inc) {
+    let counter=0;
 
     return function () {
-        return(counter+=inc);
-        
+        return(counter+=inc);  //counter+=inc; 
+   // console.log("Counter Value is:- " + counter) 
     };
     
 });
-let addt=make_adder(3);
+let addt=make_adder(5);
 addt();
 console.log(addt());
-let adds=make_adder(4);
+let adds=make_adder(7);
 adds();
 adds();
 console.log(adds());
