@@ -1,14 +1,17 @@
 {
-  "name": "hellowworld-nodejs-cdma-pp",
+  "name": "myfirst-node-app",
   "version": "1.0.0",
-  "description": "My First node.js cmdline app",
+  "description": "My First Node js app",
   "main": "index.js",
   "scripts": {
+    "dev":"node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "HellowWorld",
-    "node.js"
+    "hellow",
+    "world",
+    "node",
+    "js"
   ],
   "author": "Samuel",
   "license": "ISC"

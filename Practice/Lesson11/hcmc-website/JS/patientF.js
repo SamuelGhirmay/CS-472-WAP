@@ -23,7 +23,7 @@ import { Patient } from "./model/patient";
   const $showElderlyPatients = $("#chkElderlyPatients");
 
 
-  window.addEventListener("DOMContentLoaded",);
+  window.addEventListener("DOMContentLoaded",populatedTable);
 
   $form.on("submit",function (evet) {
     evet.preventDefault();
