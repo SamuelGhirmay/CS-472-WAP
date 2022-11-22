@@ -1,0 +1,37 @@
+/*
+*home.css
+*/
+
+.fields{
+    margin: 3px;
+    padding-top: 30px;
+
+}
+#first{
+padding-bottom: 20px;
+margin-bottom: 10px;
+padding-left: 70px;
+font-size: 30px;
+background-color: antiquewhite;
+}
+#second{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-left: 70px;
+    font-size: 30px;
+    background-color: antiquewhite;
+}
+#operator{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    font-size: 30px;
+    
+}
+#submit{
+    padding: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
